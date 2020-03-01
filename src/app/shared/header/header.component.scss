@@ -1,5 +1,17 @@
 @import '~griza-styles/guide';
 
-div {
+.div-header {
   background-color: $gray-light;
+  opacity: 0.5;
+
+  nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    #navbarTogglerMenu {
+      ul {
+        margin-right: 1rem;
+      }
+    }
+  }
 }
