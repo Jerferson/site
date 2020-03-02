@@ -5,18 +5,20 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">
+      <fa-icon class="check-icon" [icon]="['fas', 'university']" size="2x"></fa-icon>
+    </a>
 
     <div class="collapse navbar-collapse row justify-content-end" id="navbarTogglerMenu">
       <ul class="navbar-nav mt-2 mt-md-0">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">{{'header.home' | transloco}}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#">{{'header.about' | transloco}}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link disabled" href="#">{{'header.contact' | transloco}}</a>
         </li>
       </ul>
     </div>
