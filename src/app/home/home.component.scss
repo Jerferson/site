@@ -1,1 +1,27 @@
 @import '~griza-styles/guide';
+
+.jumbotron {
+  margin-bottom: 0px;
+}
+
+section {
+  margin-bottom: 10rem;
+
+  .card {
+    margin: 2.5rem;
+  }
+
+  .div-item {
+    width: 0px;
+    height: 3px;
+    background: $primary-secondary;
+    transition: width 1.5s;
+    transition-timing-function: ease;
+  }
+}
+
+section:hover {
+  div.div-item {
+    width: 100%;
+  }
+}
