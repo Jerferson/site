@@ -11,13 +11,22 @@ import {
 import {
   faUniversity,
 } from '@fortawesome/free-solid-svg-icons';
+import {
+  faFacebook, faInstagram, faTwitter,
+} from '@fortawesome/free-brands-svg-icons';
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
+import { HomeComponent } from './home/home.component';
+import { CarouselComponent } from './ui/carousel/carousel.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent,
+    CarouselComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +40,10 @@ import { TranslocoRootModule } from './transloco-root.module';
 export class AppModule { 
   constructor(library?: FaIconLibrary) {
     library.addIcons(
-      faUniversity
+      faUniversity,
+      faFacebook,
+      faInstagram,
+      faTwitter
     );
   }
 }

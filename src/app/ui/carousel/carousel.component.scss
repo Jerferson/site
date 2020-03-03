@@ -1,0 +1,11 @@
+@import '~griza-styles/guide';
+
+.carousel-item {
+  overflow: hidden;
+  width: 100%;
+  height: 50vh; /* aqui vc ajusta a altura do slider */
+}
+.carousel-item img {
+  width: 100%;
+  /* transform: translateY(-50%)  habilitar se quiser pocicionar o meio da imagem no slider*/
+}

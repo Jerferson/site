@@ -1,10 +1,10 @@
 @import '~griza-styles/guide';
 
 .div-header {
-  background-color: $gray-light;
-  opacity: 0.5;
+  opacity: 0.9;
 
   nav {
+    background-color: $gray-dark !important;
     padding-left: 1rem;
     padding-right: 1rem;
 
@@ -12,6 +12,10 @@
       ul {
         margin-right: 1rem;
       }
+    }
+
+    a {
+      color: $gray-light !important;
     }
   }
 }
