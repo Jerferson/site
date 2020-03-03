@@ -6,22 +6,43 @@
 
 section {
   margin-bottom: 10rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  padding-left: 0px;
+  padding-right: 0px;
+
+  .card:hover {
+    box-shadow: 21px 21px #53a7ea, 13px 13px #53a7ea, 35px 35px #53a7ea;
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+    transition-timing-function: linear;
+    transition: 1.5s;
+  }
 
   .card {
-    margin: 2.5rem;
+    transition: 1.5s;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    width: 100% !important;
   }
 
   .div-item {
+    margin-left: 0rem;
+    margin-right: 0rem;
     width: 0px;
     height: 3px;
     background: $primary-secondary;
-    transition: width 1.5s;
+    transition: width 5.5s;
     transition-timing-function: ease;
+    opacity: 0.5;
   }
 }
 
 section:hover {
   div.div-item {
+    transition: width 2.5s;
     width: 100%;
+    opacity: 0.5;
   }
 }
