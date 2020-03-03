@@ -1,0 +1,19 @@
+@import '~griza-styles/guide';
+
+section {
+  footer {
+    background-color: $gray-dark;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+    a {
+      color: $gray-light !important;
+    }
+
+    .footer-copyright {
+      background-color: rgba(0, 0, 0, 0.2);
+      color: $gray-light;
+    }
+  }
+}

@@ -17,12 +17,16 @@ import {
 import { HttpClientModule } from '@angular/common/http';
 import { TranslocoRootModule } from './transloco-root.module';
 import { HomeComponent } from './home/home.component';
+import { CarouselComponent } from './ui/carousel/carousel.component';
+import { FooterComponent } from './shared/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    CarouselComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
