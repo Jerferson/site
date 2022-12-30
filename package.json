@@ -23,7 +23,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
-    "@ngneat/transloco": "^2.13.5",
+    "@ngneat/transloco": "^2.23.5",
     "bootstrap": "^4.4.1",
     "griza-styles": "./src/app/ui/styles",
     "jquery": "^3.4.1",
